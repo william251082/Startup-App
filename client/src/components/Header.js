@@ -15,9 +15,7 @@ class Header extends Component
     }
 
     render() {
-        console.log(this.props);
         return (
-            <div className="container">
                 <nav>
                     <div className="nav-wrapper">
                         <a className="left brand-logo">
@@ -28,7 +26,6 @@ class Header extends Component
                         </ul>
                     </div>
                 </nav>
-            </div>
         );
     }
 }
