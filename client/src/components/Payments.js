@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import StripeCheckout from 'react-stripe-checkout';
+import {connect} from "react-redux";
 
 class Payments extends Component
 {
     render() {
+        // debugger;
+
         return (
             <StripeCheckout
             amount={500}
@@ -13,3 +16,5 @@ class Payments extends Component
         );
     }
 }
+
+export default (Payments);
