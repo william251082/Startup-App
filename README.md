@@ -1,3 +1,5 @@
 # Startup App 
  
-  Powered by in react and nodejs.
+  Powered by react and nodejs.
+  
+  [Demo](https://tranquil-fjord-69173.herokuapp.com)
