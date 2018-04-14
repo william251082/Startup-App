@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c5c246e-ecfe-453b-bfd9-7288f9616705" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="7c5c246e-ecfe-453b-bfd9-7288f9616705" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +14,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+            <state relative-caret-position="131">
+              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -151,16 +149,15 @@
       <workItem from="1523271910544" duration="6880000" />
       <workItem from="1523610754471" duration="5350000" />
       <workItem from="1523625820467" duration="21668000" />
-      <workItem from="1523680433088" duration="4945000" />
+      <workItem from="1523680433088" duration="5250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38843000" />
+    <option name="totallyTimeSpent" value="39148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32859176" />
@@ -168,8 +165,8 @@
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="right" id="Terminal" order="4" visible="true" weight="0.328125" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19921875" />
+      <window_info anchor="right" id="Terminal" order="4" visible="true" weight="0.29296875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1515625" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -471,8 +468,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        <state relative-caret-position="131">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
         </state>
       </provider>
     </entry>
