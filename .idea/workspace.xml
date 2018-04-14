@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c5c246e-ecfe-453b-bfd9-7288f9616705" name="Default" comment="" />
+    <list default="true" id="7c5c246e-ecfe-453b-bfd9-7288f9616705" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/models/Survey.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Survey.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Survey.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Survey.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/Survey.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Recipient.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/Recipient.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -71,8 +82,9 @@
         <option value="$PROJECT_DIR$/client/src/components/Header.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/models/Survey.js" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/models/Survey.js" />
+        <option value="$PROJECT_DIR$/models/Recipient.js" />
       </list>
     </option>
   </component>
@@ -169,7 +181,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40131000" />
+    <option name="totallyTimeSpent" value="40823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -209,13 +221,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/src/components/Payments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/authRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -553,8 +558,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Survey.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Recipient.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
