@@ -17,7 +17,13 @@ class SurveyForm extends Component
     renderFields() {
         return _.map(FIELDS, ({ label, name }) => {
             return (
-                <Field key={name} component={SurveyField} type="text" label={label} name={name} />
+                <Field
+                    key={name}
+                    component={SurveyField}
+                    type="text"
+                    label={label}
+                    name={name}
+                />
             );
         });
     }
@@ -46,7 +52,7 @@ function validate(values) {
     const errors = {};
 
     if (!values.title) {
-        errors.title = 'You mustmprovide a title';
+        errors.title = 'You must provide a title';
     }
 
     return errors;
