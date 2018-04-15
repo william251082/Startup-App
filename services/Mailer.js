@@ -4,13 +4,31 @@ const keys = require('../config/keys');
 
 class Mailer extends helper.Mail
 {
-    constructor({ subject, reciepients }, content) {
+    constructor({ subject, recipients }, content) {
         super();
 
         this.from_email = new helper.Email('no-reply@emaily.com');
         this.subject = subject;
         this.body = new helper.Content('test/html', content);
-        this.recipients = this.formatAddresses(reciepients);
+        this.recipients = this.formatAddresses(recipients);
+
+        this.addContent(this.body);
+        this.addClickTracking();
+        this.addRecipients();
+    }
+
+    formatAddresses(recipients) {
+        return recipients.map(({ email }) => {
+            return new helper.Email(email);
+        });
+    }
+
+    addClickTracking() {
+        const trackingSettings = new helper.TrackingSettings();
+        const clickTracking = new helper.ClickTracking(true, true);
+
+        trackingSettings.setClickTracking(clickTracking);
+        this.addTrackingSettings(trackingSettings);
     }
 }
 
