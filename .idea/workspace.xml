@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c5c246e-ecfe-453b-bfd9-7288f9616705" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/surveyRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/surveyRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/Mailer.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/Mailer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,28 +14,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="surveyTemplate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="surveyRoutes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="surveyRoutes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/surveyRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            <state relative-caret-position="315">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Mailer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/Mailer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -91,10 +88,10 @@
         <option value="$PROJECT_DIR$/config/dev.js" />
         <option value="$PROJECT_DIR$/config/prod.js" />
         <option value="$PROJECT_DIR$/models/Survey.js" />
-        <option value="$PROJECT_DIR$/routes/surveyRoutes.js" />
-        <option value="$PROJECT_DIR$/services/Mailer.js" />
         <option value="$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js" />
         <option value="$PROJECT_DIR$/client/src/index.js" />
+        <option value="$PROJECT_DIR$/services/Mailer.js" />
+        <option value="$PROJECT_DIR$/routes/surveyRoutes.js" />
       </list>
     </option>
   </component>
@@ -228,7 +225,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48485000" />
+    <option name="totallyTimeSpent" value="49365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -599,22 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/Mailer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -625,10 +606,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/services/Mailer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/surveyRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="315">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
