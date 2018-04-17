@@ -18,3 +18,8 @@ Survey.find({}).then(console.log);
 Survey.find({ title: 'FINAL TEST!'}).then(console.log);
 
 Survey.find({ yes: 0 }).then(console.log);
+
+
+// "webhook": "./sendgrid_webhook.sh"
+
+// "webhook": "lt -p 5000 -s vgigiblihlix"
