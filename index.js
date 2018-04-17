@@ -8,7 +8,7 @@ require('./models/User');
 require('./models/Survey');
 require('./services/passport');
 
-
+mongoose.Promise = global.Promise;
 mongoose.connect(keys.mongoURI);
 
 
@@ -44,3 +44,4 @@ if (process.env.NODE_ENV === 'production') {
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
 
+const Survey = mongoose.model('surveys')
